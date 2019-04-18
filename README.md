@@ -4,12 +4,12 @@ Bridge between QML and OpenCC.
 
 # How to use
 
-Simply import the plugin with the following code in your QML file:
+Simply import the plugin with the following code in your QML file:  
 `import net.toxip.openccqml 1.0`
 
 # API Reference
 
-`QString convert(QString)`
+`QString convert(QString)`  
 Converts simplified Chinese into Taiwanese traditional standard.
 
 **TODO**  
