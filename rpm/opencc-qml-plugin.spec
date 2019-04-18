@@ -10,7 +10,7 @@ Name:       opencc-qml-plugin
 Summary:    Bridge between QML and OpenCC
 Version:    1.0.1
 Release:    1%{?dist}
-License:    Apache-2.0
+License:    LGPLv2
 URL:        https://github.com/topiasv/opencc-qml-plugin
 Source0:    %{name}-%{version}.tar.gz
 Requires: opencc
