@@ -1,0 +1,6 @@
+Makefile
+documentation.list
+build/
+RPMS
+.vscode
+.mb2
