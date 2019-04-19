@@ -4,7 +4,7 @@
 #include <opencc/opencc.h>
 
 OpenCC::OpenCC(QQuickItem *parent) : QQuickItem(parent) {
-  const std::string mode("s2tw.json");
+  const std::string mode("s2twp.json");
   converter = new opencc::SimpleConverter(mode);
 }
 
