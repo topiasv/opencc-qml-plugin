@@ -2,6 +2,7 @@
 #define OPENCC_H
 
 #include <QQuickItem>
+#include <QString>
 #include <opencc/opencc.h>
 
 class OpenCC : public QQuickItem
@@ -13,6 +14,7 @@ private:
 public:
   OpenCC(QQuickItem *parent = nullptr);
   ~OpenCC();
+  Q_INVOKABLE void chooseMode(QString mode);
   Q_INVOKABLE QString convert(const QString qstr) const;
 
 };
